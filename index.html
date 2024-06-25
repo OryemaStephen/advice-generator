@@ -4,10 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>Advice Generator</title>
 </head>
 <body>
-    
+    <main>
+        <div class="container">
+            <p >Advice #<span id="advice-number"></span></p>
+            <p id="advice"></p>
+            <img src="./images/pattern-divider-desktop.svg" alt="Divider">
+            <button id="advice-button" type="button">
+                <img id="advice-icon" src="./images/icon-dice.svg" alt="Dice Icon">
+            </button>
+        </div>
+    </main>    
 
     <script src="app.js"></script>
 </body>
